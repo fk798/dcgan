@@ -7,7 +7,7 @@ This project demonstrates the capabilities of the Deep Convolutional Generative 
 The file named art.py is a scraper that scrapes images from WikiArt, an encyclopedia containing numerous art images. This file was obtained from Robbie Barrat's genre-scraper.py in his art-DCGAN repo (see references below).
 
 The file named google.py is a scraper that scrapes from Google Images. 
-Because of issues with regards to scraping WikiArt, I originally planned to scrape from Google, but seeing that some of the images there were not artworks (some images were advertisements/informative graphics and not artworks), I decided to use a Kaggle dataset that already had a large sample of images from WikiArt (see references below).
+Because of issues with regards to scraping WikiArt, I planned to scrape from Google, but seeing that some of the images there were not artworks (some images were advertisements/informative graphics), I decided to use a Kaggle dataset that already had a large sample of images from WikiArt (see references below).
 
 The files named landscape.ipynb and portrait.ipynb are Jupyter Notebook files that you can run on your machine to produce your own images using the DCGAN. They are essentially identical in code, with the only difference being that one contains images from the network being trained on a sample of landscape artworks, while the other was trained on a sample of portrait artworks. You can see the progress it made from the start of the training to the end, and the final products for both trainings.
 

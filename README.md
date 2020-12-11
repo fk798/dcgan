@@ -13,6 +13,9 @@ The files named landscape.ipynb and portrait.ipynb are Jupyter Notebook files th
 
 The folder named images_good contains the final products after training the DCGAN - the landscape, and the portrait products.
 
+## My System
+In case you were interested, I ran this code on a custom built PC running Windows 10 with a NVIDIA GPU RTX 2080 and an Intel i9-9900K CPU with 32GB RAM. Running landscape.py with an image sample of 15000 landscape images took around 2.5 hours to complete.
+
 ## References
 
 For references, you can check out the following links:

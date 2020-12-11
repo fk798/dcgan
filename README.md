@@ -2,6 +2,7 @@
 
 This project is for CS-UY 3943 Mining Massive Datasets class at NYU Tandon School of Engineering.
 
+## About
 This project demonstrates the capabilities of the Deep Convolutional Generative Adversarial Network (DCGAN). 
 
 The file named art.py is a scraper that scrapes images from WikiArt, an encyclopedia containing numerous art images. This file was obtained from Robbie Barrat's genre-scraper.py in his art-DCGAN repo (see references below).

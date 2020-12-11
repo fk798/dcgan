@@ -12,10 +12,10 @@ Because of issues with regards to scraping WikiArt, I planned to scrape from Goo
 
 The files named landscape.ipynb and portrait.ipynb are Jupyter Notebook files that you can run on your machine to produce your own images using the DCGAN. They are essentially identical in code, with the only difference being that one contains images from the network being trained on a sample of landscape artworks, while the other was trained on a sample of portrait artworks. You can see the progress it made from the start of the training to the end, and the final products for both trainings.
 
-The folder named images_good contains the final products after training the DCGAN - the landscape, and the portrait products.
+The folder named images_good contains the final products after training the DCGAN - the landscape and portrait products.
 
 ## My System
-In case you were interested, I ran this code on a custom built PC running Windows 10 with a NVIDIA GPU RTX 2080 and an Intel i9-9900K CPU with 32GB RAM. Running landscape.py with an image sample of 15000 landscape images took around 2.5 hours to complete.
+In case you were interested, I ran this code on a custom built PC running Windows 10 with a NVIDIA GPU RTX 2080 and an Intel i9-9900K CPU with 32GB RAM. Running landscape.ipynb with an image sample of 15000 landscape images took around 2.5 hours to complete.
 
 ## References
 
